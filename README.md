@@ -48,3 +48,58 @@ This project is built with:
 - Tailwind CSS
 
 
+## About approach
+1. Tech Stack Used:
+
+Frontend: React.js
+
+Styling: CSS (modular and responsive)
+
+State Management: React Hooks (useState, useEffect)
+
+Storage: localStorage (to persist data across page reloads)
+
+2. Functional Approach:
+
+Component-Based Structure:
+
+The app is broken into modular components like:
+
+Header: Displays app title and balance.
+
+TransactionList: Lists all transactions.
+
+AddTransaction: Form to input new transactions.
+
+IncomeExpense: Summary of income vs expenses.
+
+Transaction: Individual transaction item.
+
+Chart (optional): May use a chart to visualize spending.
+
+Transaction Flow:
+
+User adds a transaction (income or expense).
+
+Data is stored in localStorage.
+
+React updates state and UI re-renders accordingly.
+
+Persistent Data:
+
+The app uses localStorage to keep transactions saved even after a browser refresh.
+
+Responsive UI:
+
+The layout is optimized for different screen sizes and looks clean on desktop and mobile.
+
+User Feedback:
+
+Visual cues like colors (e.g., green for income, red for expense) help users easily interpret their financial data.
+
+3. Goal of the App:
+
+To provide users with a simple, user-friendly interface to track their daily expenses, understand their financial habits, and maintain a clear overview of income vs expenditure.
+
+
+
